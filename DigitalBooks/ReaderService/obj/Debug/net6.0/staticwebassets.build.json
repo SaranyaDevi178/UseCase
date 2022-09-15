@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "jzUlUEx9Lf3/tyssBdx8guyq+KnUOfsqp7/ue/JZSN0=",
+  "Source": "ReaderService",
+  "BasePath": "_content/ReaderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\cogdotnet1688\\source\\repos\\DigitalBooks\\AuthServer\\AuthServer.csproj",
+      "Version": 2,
+      "Source": "AuthServer",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
