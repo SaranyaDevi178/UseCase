@@ -1,0 +1,91 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44347"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Books/GetDetails",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Books",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "Post",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44347"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Books/postdetails",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Purchases",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "Get",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44336"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Purchases",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/validate",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "Post",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44325"
+        }
+      ],
+      "UpstreamPathTemplate": "/validate",
+      "UpstreamHttpMethod": [ "POST" ]
+
+    },
+
+    {
+
+      "DownstreamPathTemplate": "/api/UserTables",
+      "DownstreamSchema": "https",
+      "DownstreamHttpMethod": "GET",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44349"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserTables/GetData",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    }
+
+    //7012
+
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44304/"
+  }
+}
+
